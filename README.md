@@ -83,7 +83,7 @@ These files can be obtained via the Git repository.
 
 Before we start collecting Business information for reporting, we need to configured the filters used to define Existing and New Accounts.  Perform the following steps to configure Existig and New Accounts:
 
-1. Open the ```Makreting Control Panel``` from the Sitecore Dashboard
+1. Open the ```Marketing Control Panel``` from the Sitecore Dashboard
 1. Navigate to ```Experience Analytics/Filters/Existing business names```.
 1. Edit the ```Rule``` adding the necessary conditions.
 1. Save the item.
@@ -97,7 +97,7 @@ Now that we have the rules / filters configured, we need to deploy the segments 
 
 1. Open the ```Marketing Control Panel``` from the Sitecore Dashboard
 1. Navigate to ```Experience Analytics/Dimensions/Visits/By business name/All visits by business name```.
-1. In the Ribbon, on the Home tab, select Edit... Deploy 
+1. In the Ribbon, on the Home tab, select Edit... -> Deploy 
 1. Repeat for ```All visits by existing```
 1. Repeat for ```All visits by new```
 
