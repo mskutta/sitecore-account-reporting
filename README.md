@@ -1,6 +1,6 @@
 # Sitecore Account Reporting
 
-The Sitecore Account Reporting module adds account (business name) reporting to Sitecore. Several reports are included in the module.
+The Sitecore Account Reporting module adds strategic or key account reporting to Sitecore. This is to help with [Account-based Marketing](https://en.wikipedia.org/wiki/Account-based_marketing).  Several reports are included in the module.
 
 This module only supports Sitecore 8.2.  It was built on Sitecore 8.2 update 2.
 
