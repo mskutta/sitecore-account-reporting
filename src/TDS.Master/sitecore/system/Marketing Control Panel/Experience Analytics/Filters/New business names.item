@@ -1,0 +1,76 @@
+----item----
+version: 1
+id: {956500F3-2AC5-4861-962E-97280EFEFFB7}
+database: master
+path: /sitecore/system/Marketing Control Panel/Experience Analytics/Filters/New business names
+parent: {F1C4275C-8F38-4570-BABF-C95837CC87CF}
+name: New business names
+master: {00000000-0000-0000-0000-000000000000}
+template: {07003270-D56D-42C2-90E1-99125E0ED1AF}
+templatekey: Filter
+created: 20190123T130540Z
+
+----version----
+language: en
+version: 1
+revision: 889796c3-89b0-45bd-9312-48c3c7f7c179
+
+----field----
+field: {1E72123A-F0FC-48EF-AE9F-78872597CEBF}
+name: Rule
+key: rule
+content-length: 470
+
+<?xml version="1.0" encoding="utf-16"?>
+<ruleset>
+  <rule uid="{7BB7ECFC-8094-4AF5-A8A7-D12C3C856036}">
+    <conditions>
+      <condition id="{65C1D876-3E04-42A8-B219-9739C4E14C94}" uid="2FEF37B144D24DD394B0DCC1AEDE1970" operatorid="{2E67477C-440C-4BCA-A358-3D29AED89F47}" value="Hospital" />
+    </conditions>
+    <actions>
+      <action id="{E7AD708C-9943-4173-9055-ED9B078932B2}" uid="6CA04D86413B44DAB8F8856D0EA4F4CE" />
+    </actions>
+  </rule>
+</ruleset>
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190123T130540Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+889796c3-89b0-45bd-9312-48c3c7f7c179
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190329T190333Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

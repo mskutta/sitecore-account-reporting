@@ -1,0 +1,19 @@
+﻿<?xml version="1.0"?>
+<configuration xmlns:patch="http://www.sitecore.net/xmlconfig/" xmlns:set="http://www.sitecore.net/xmlconfig/set/">
+  <sitecore>
+    <lookupManager>
+      <patch:attribute name="defaultProvider">kickfire</patch:attribute>
+      <providers>
+        <add name="kickfire" type="Skutta.AccountReporting.Lookups.KickFire.KickFireProvider, Skutta.AccountReporting">
+          <param ref="GeoIpConnector"/>
+          <apiKey></apiKey>
+          <apiUrl>https://api.kickfire.com/v2/company:(all)</apiUrl>
+          <countries hint="list:AddCountry">
+            <country>United States</country>
+            <country>US</country>
+          </countries>
+        </add>
+      </providers>
+    </lookupManager>
+  </sitecore>
+</configuration>

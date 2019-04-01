@@ -1,0 +1,108 @@
+----item----
+version: 1
+id: {BF01CF19-92B3-4293-9A14-9E36D78C3342}
+database: core
+path: /sitecore/client/Applications/ExperienceAnalytics/Dashboard/Audience/Accounts/Existing/Account/PageSettings/Contacts
+parent: {96FC0B0A-EEED-42C3-9480-B71ED85EAAA8}
+name: Contacts
+master: {00000000-0000-0000-0000-000000000000}
+template: {52863919-CD00-48F8-A545-36A09E8D5EFA}
+templatekey: Parameters
+created: 20190208T222306Z
+
+----field----
+field: {D1184319-38CA-4D82-899D-64A76F8F7603}
+name: Segments
+key: segments
+content-length: 38
+
+{E592884A-8882-4ED6-A2A3-71212C4CE683}
+----field----
+field: {13CF962B-9899-4421-8206-8BDC3BF117D1}
+name: KeysSortByMetric
+key: keyssortbymetric
+content-length: 38
+
+{CC835378-DE1E-41E9-A603-2F7997C14157}
+----field----
+field: {5D6BC769-813B-4D41-8A88-73DCA65D66B5}
+name: KeysSortDirection
+key: keyssortdirection
+content-length: 38
+
+{D54D6C57-A761-412F-BCE8-A2B181B443FF}
+----field----
+field: {5B3AC62D-EEDB-4F89-A311-EF958BBDB762}
+name: DrilldownOption
+key: drilldownoption
+content-length: 38
+
+{3B4EF40B-2BF9-4143-B930-65B080F6D357}
+----version----
+language: en
+version: 1
+revision: dbc61101-0d8b-44ca-9ca2-49e3b5be00b3
+
+----field----
+field: {4D3809F6-27C8-4A3C-9EA6-A652AE23C0C3}
+name: Title
+key: title
+content-length: 8
+
+Contacts
+----field----
+field: {E17D3534-A424-47E3-8F2C-3DBBA705565F}
+name: Tooltip
+key: tooltip
+content-length: 8
+
+Contacts
+----field----
+field: {6D8C52E7-13FA-440E-BAB8-FA3C2D42F534}
+name: TargetPage
+key: targetpage
+content-length: 38
+
+{BAF2CFFC-1E8F-450B-97B8-96813B0B20BD}
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190128T222338Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+dbc61101-0d8b-44ca-9ca2-49e3b5be00b3
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190311T123537Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

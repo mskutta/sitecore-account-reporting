@@ -1,0 +1,78 @@
+----item----
+version: 1
+id: {0B24C114-A490-42CD-A9B6-AB2D626CE4EF}
+database: master
+path: /sitecore/system/Marketing Control Panel/Experience Analytics/Filters/Existing business names
+parent: {F1C4275C-8F38-4570-BABF-C95837CC87CF}
+name: Existing business names
+master: {00000000-0000-0000-0000-000000000000}
+template: {07003270-D56D-42C2-90E1-99125E0ED1AF}
+templatekey: Filter
+created: 20190207T182825Z
+
+----version----
+language: en
+version: 1
+revision: d53a5577-c841-4feb-ae94-6d10eff2e31a
+
+----field----
+field: {1E72123A-F0FC-48EF-AE9F-78872597CEBF}
+name: Rule
+key: rule
+content-length: 666
+
+<ruleset>
+  <rule uid="{5D7D1A8E-9382-432E-AC31-AD36D2D25442}">
+    <conditions>
+      <or uid="ABB9D9F88FBE4DC4A46F1FE75F07517A">
+        <condition id="{65C1D876-3E04-42A8-B219-9739C4E14C94}" uid="D7751208B2EF4AB49AD8A703292A5A61" operatorid="{2E67477C-440C-4BCA-A358-3D29AED89F47}" value="Utility" />
+        <condition id="{65C1D876-3E04-42A8-B219-9739C4E14C94}" uid="D2185EC0595C4898A6C77E8B17DF02CA" operatorid="{2E67477C-440C-4BCA-A358-3D29AED89F47}" value="State" />
+      </or>
+    </conditions>
+    <actions>
+      <action id="{E7AD708C-9943-4173-9055-ED9B078932B2}" uid="3955651D0E5E4A4DA5357A42B89F240F" />
+    </actions>
+  </rule>
+</ruleset>
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190207T182825Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+d53a5577-c841-4feb-ae94-6d10eff2e31a
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190329T190939Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

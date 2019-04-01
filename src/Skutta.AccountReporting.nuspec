@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Skutta.AccountReporting</id>
+    <version>1.0.0</version>
+    <title>Sitecore Account Reporting</title>
+    <authors>Mike Skutta</authors>
+    <description>Sitecore Account Reporting</description>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+  </metadata>
+  <files>
+    <file src=".\Web\bin\Skutta.AccountReporting.dll" target="lib\net45" />
+	<file src=".\Web\bin\Skutta.AccountReporting.Web.dll" target="lib\net45" />
+    <file src=".\Web\App_Config\Include\zzzzz\*.*" target="content\App_Config\Include\zzzzz\" />
+	<file src=".\Web\sitecore\admin\*.aspx" target="content\sitecore\admin\" />
+  </files>
+</package>

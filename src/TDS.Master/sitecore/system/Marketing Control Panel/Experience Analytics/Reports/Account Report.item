@@ -1,0 +1,73 @@
+----item----
+version: 1
+id: {59D66F71-8E38-4B2C-93E2-DFC52AA4B37D}
+database: master
+path: /sitecore/system/Marketing Control Panel/Experience Analytics/Reports/Account Report
+parent: {2D0B9B7C-630D-4D3E-813D-EA5E8DACF79C}
+name: Account Report
+master: {00000000-0000-0000-0000-000000000000}
+template: {579EA93E-FA64-476A-8C14-21F6A09710E3}
+templatekey: Report
+created: 20190212T143041Z
+
+----version----
+language: en
+version: 1
+revision: 32995481-0dbc-48f3-815b-aeb15a77aa8f
+
+----field----
+field: {D90E5885-B4C3-489A-BACF-8442590CCCCC}
+name: Name
+key: name
+content-length: 14
+
+Account Report
+----field----
+field: {18FB0A97-58F0-45A0-9ECE-81074286BFAD}
+name: Days
+key: days
+content-length: 1
+
+1
+----field----
+field: {4D3D57BA-40E5-4E76-B23C-3D21EB35244B}
+name: EmailTo
+key: emailto
+content-length: 0
+
+
+----field----
+field: {30968F6C-C5DF-4FDC-A5B5-09936269D782}
+name: EmailFrom
+key: emailfrom
+content-length: 0
+
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190212T143041Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+32995481-0dbc-48f3-815b-aeb15a77aa8f
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190329T193529Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
