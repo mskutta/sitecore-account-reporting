@@ -1,6 +1,6 @@
 # Sitecore Account Reporting
 
-Sitecore Account Reporting module adds account reporting to Sitecore for professional services organizations (PSO) or Business to Business (B2B) organizations. Several reports are included in Sitecore Account Reporting to surface data important to PSO and B2B organizations.
+The Sitecore Account Reporting module adds account (business name) reporting to Sitecore. Several reports are included in the module.
 
 This module only supports Sitecore 8.2.  It was built on Sitecore 8.2 update 2.
 
