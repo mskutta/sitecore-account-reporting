@@ -24,7 +24,7 @@ namespace Skutta.AccountReporting.Data
             foreach (DataRow dataRow in dataTable.Rows)
             {
                 var key = GetStringValue(dataRow, "[Key]");
-
+                var dimensionKeyId = GetInt64Value(dataRow, "[DimensionKeyId]");
                 var bounces = GetIntValue(dataRow, "[Bounces]");
                 var conversions = GetIntValue(dataRow, "[Conversions]");
                 var timeOnSite = GetInt64Value(dataRow, "[TimeOnSite]");
@@ -37,6 +37,7 @@ namespace Skutta.AccountReporting.Data
                 var reportRow = new ReportRow
                 {
                     Key = key,
+                    DimensionKeyId = dimensionKeyId,
                     Bounces = bounces,
                     Conversions = conversions,
                     TimeOnSite = timeOnSite,
