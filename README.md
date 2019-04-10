@@ -50,14 +50,14 @@ Download the latest Account Reporting module `.update` package from GitHub: http
 Install the module using the Update Installation Wizard: ```/sitecore/admin/UpdateInstallationWizard.aspx```.
 
 ### Via NuGet
-Install the following NuGet packages.  You will need to host these packages: https://docs.microsoft.com/en-us/nuget/hosting-packages/overview
+Nuget packages can be found in GitHub: https://github.com/mskutta/sitecore-account-reporting/releases. Install the following NuGet packages.  You will need to host these packages: https://docs.microsoft.com/en-us/nuget/hosting-packages/overview
 
 * Install `Skutta.AccountReporting` into the `Website` project
 * Install `Skutta.AccountReporting.TDS.Core` into the `TDS.Core` project
 * Install `Skutta.AccountReporting.TDS.Master` into the `TDS.Master` project
 
 ### Via Code Copy
-1. Clone or download the Account Reporting repository into a location where you can copy the project structure
+1. Clone or download the Account Reporting repository https://github.com/mskutta/sitecore-account-reporting/ into a location where you can copy the project structure
 1. Copy folder `Skutta.AccountReporting` into your projects `src` folder. It should be a sibling of the Website, TDS.Master and TDS.Core projects
 1. Open your project in Visual Studio and add the "Skutta.AccountReporting" project to your solution, also add a reference to this project from the website solution.
 1. You may need to update the target framework on the `Skutta.AccountReporting` project to match the `Website` project. If this is required you will also need to open up the NuGet package manager for the solution and sync up the package versions.
